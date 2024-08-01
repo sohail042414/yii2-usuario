@@ -41,7 +41,7 @@
     "prefer-stable": true,
     "require": {
         "php": ">=5.5",
-        "2amigos/yii2-selectize-widget": "^1.0",
+        "2amigos/yii2-selectize-widget": "dev-master",
         "yiisoft/yii2-authclient": "^2.1",
         "yiisoft/yii2-httpclient": "^2.0",
         "yiisoft/yii2-bootstrap5": "~2.0.2",
@@ -103,6 +103,10 @@
         {
             "type": "composer",
             "url": "https://asset-packagist.org"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/sohail042414/yii2-selectize-widget"
         }
     ]
 }
